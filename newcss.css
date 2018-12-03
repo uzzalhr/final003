@@ -1,0 +1,255 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2018, 7:19:35 PM
+    Author     : Uzzal's PC
+*/
+
+body{
+    margin:auto; 
+    background:powderblue; 
+}
+
+
+#wraffer{
+    
+    width:100%; 
+    height:auto; 
+}
+
+#header_wraffer{
+    
+    width:100%;
+    height:200px; 
+    float:left; 
+}
+
+.back-img{
+    background-image: url(images/photo3.jpg);
+    width:98%;
+    height:600px;
+    background-size: cover;
+    position: absolute;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+
+
+#banner{
+    
+    width:100%;
+    height: 550px;
+    
+
+
+}
+#banner img{
+    width:100%;
+    height:660px; 
+    margin-top: 35px;
+    float:left; 
+    
+    
+}
+
+
+#menu{
+    background:rosybrown;
+    width:100%;
+    height:100px; 
+    margin-top:500px;
+    margin-bottom:15px;
+    float:left; 
+
+}
+
+#menu ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#menu ul li{
+    float:left;
+    list-style-type: none;
+    margin-left:10px; 
+    font-size:25px;
+    padding:18px;
+    width:13%; 
+    /*height:70px;*/ 
+    text-align:center; 
+    transition:all 1s; 
+}
+
+
+#menu ul li a{
+    text-decoration:none;
+    color:white; 
+    display: block;
+    
+}
+
+
+#menu ul :hover{
+    
+    color:red; 
+    
+    
+}
+
+#slider{
+    background:yellowgreen;
+    width:100%;
+    height:1000px;
+    float:left; 
+}
+
+#slider img{
+    float:left;
+    width:30%;
+    height:250px;
+    margin:15.4px;
+    padding:6.1px;
+    border:1px solid#666;
+    background:#222;  
+}
+#slider h2{
+    text-align: center;
+     font-size: 22px;
+     color:black;
+     padding-top: 20px;
+     text-transform: uppercase;
+     
+     letter-spacing: 2px;
+     word-spacing: 2px;
+     font-weight: normal;
+}
+#slider p{
+    font-size: 50px;
+    color:white;
+    font-size: 13px;
+    text-align: justify;
+    padding:20px 20px 0 20px;
+    
+}
+
+#content_wraffer{
+    background-color:white;
+    width:100%;
+    height:auto; 
+    margin-top:4px;
+    float:left; 
+}
+
+#left_content{
+    background-color:rosybrown;
+    width:25%;
+    height:auto; 
+    float:left;
+
+}
+#left_content ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#left_content ul li{
+    /*float:left;*/
+    background:olive;
+    list-style-type: none;
+    margin-bottom:1px; 
+    font-size:20px;
+    padding:23px;
+    width:85.8%; 
+    /*height:70px;*/ 
+    text-align:center; 
+     
+}
+
+#left_content ul li a{
+    text-decoration:none;
+    color:white; 
+}
+#left_content ul :hover{
+    background: peru;
+    color:white; 
+    transition:all 1s;
+}
+
+#middle_content{
+    background-color:lightgreen;
+    width:50%;
+    height:auto; 
+    float:left;
+
+}
+#middle_content ul{
+    margin:0px;
+    padding:0px; 
+}
+#middle_content ul li{
+    /*float:left;*/
+    background:red;
+    list-style-type: none;
+    margin-bottom:5px; 
+    font-size:20px;
+    padding:23px;
+    width:83%; 
+    /*height:75px;*/ 
+    text-align:center; 
+     
+}
+#middle_content ul li a{
+    text-decoration:none;
+    color:black; 
+}
+#right_content{
+    background-color:rosybrown;
+    width:25%;
+    height:auto; 
+    float:left;
+
+}
+#right_content ul{
+    margin:0px;
+    padding:0px; 
+}
+#right_content ul li{
+    /*float:left;*/
+    background:olive;
+    list-style-type: none;
+    margin-bottom:1px; 
+    font-size:20px;
+    padding:23px;
+    width:86%; 
+    /*height:75px;*/ 
+    text-align:center; 
+     
+}
+#right_content ul li a{
+    text-decoration:none;
+    color:white; 
+}
+#right_content ul :hover{
+    background: peru;
+    color:white; 
+    transition:all 1s;
+}
+
+#footer{
+    background:skyblue;
+    width:100%;
+    height:70px; 
+    margin-top:3px;
+    float:left; 
+    text-align: center;
+    color:black; 
+}
